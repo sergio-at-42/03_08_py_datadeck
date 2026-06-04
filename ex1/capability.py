@@ -11,7 +11,10 @@ class HealCapability(ABC):
 
 class TransformCapability(ABC):
 
-    state: str = ""
+    def __init__(self) -> None:
+        self.state: str = ""
+        self.revert()
+        super().__init__()
 
     @abstractmethod
     def transform(self) -> str:
