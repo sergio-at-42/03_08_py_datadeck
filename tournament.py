@@ -8,8 +8,8 @@ from ex2 import BattleStrategy, NormalStrategy, AggressiveStrategy, DefensiveStr
 
 def ft_battle(opponents: list[tuple[CreatureFactory, BattleStrategy]]) -> None:
     for fighter in opponents:
-        
-    
+        pass
+            
 
 def ft_tournament() -> None:
 
