@@ -38,12 +38,7 @@ def ft_battle() -> None:
     print("")
 
     print("Testing battle")
-    print("Flameling is a Fire type Creature")
-    print("vs.")
-    print("Aquabub is a Water type Creature")
-    print("fight!")
-    print("Flameling uses Ember!")
-    print("Aquabub uses Water Gun!")
+    ft_test_batlle(ff, af)
 
 
 if __name__ == "__main__":
